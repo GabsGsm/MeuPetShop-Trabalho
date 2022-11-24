@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "baby";
+    src: url(../fonte/OMEGLE-Regular.woff);
+}
+html,body{
+    min-width: 980px;
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.atual{
+    border-bottom: 2px solid #644978;
+}
+header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #beb0d1;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+.nav-title{
+    flex-grow: 1;
+    font-size: 1.5em;
+    text-align: center;
+}
+.nav-title a h1{
+    color: #9977b3;
+    font-family: "baby";
+    -webkit-text-stroke: 1px #000;
+}
+.nav-title a h1 span{
+    color: #644978;
+    font-family: "baby";
+    -webkit-text-stroke: 1px #000;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+.nav-bar ul li{
+    display: flex;
+    font-size: 1.3em;
+    margin-right: 10px;
+    padding: 4px 8px;
+}
+.nav-bar ul li a{
+    color: #644978;
+}
+.nav-bar ul li:hover {
+    border-bottom: 2px solid #644978;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.rodape div{
+    margin-bottom: 25px;
+}
+.rodape-direitos{
+margin-top: 25px;
+}
+.escuro{
+    background: #644978;
+}
+.claro{
+    background: #644978ea;  
+    height: 40px;
+}
+.rodape-title{
+    flex-grow: 1;
+    font-size: 1.5em;
+    text-align: center;
+}
+.rodape-title a h1{
+    color: #9977b3;
+    font-family: "baby";
+    -webkit-text-stroke: 1px #fff;
+}
+.rodape-title a h1 span{
+    color: #644978;
+    font-family: "baby";
+    -webkit-text-stroke: 1px #fff;
+}
+.title{
+    font-family: HelveticaNeue,Helvetica Neue,helvetica,Sans-Serif;
+    color: #644978;
+    margin-top: 30px;
+    border-left: 0.2em solid #644978;
+    margin-left: 50px;
+    padding-left: 8px;
+}
+.saltar:hover{
+    opacity: 0.8;
+    transition: opacity 130ms;
+    transform: scale(1.09);
+    transition: transform 130ms;
+}

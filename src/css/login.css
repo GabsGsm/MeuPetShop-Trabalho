@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'VelaSans Light';
+    src: url(../fonte/VelaSans-Light.woff);
+}
+.box{
+    width: 380px;
+    height: 320px;
+    box-shadow: 0 2px 5px 2px rgba(180, 173, 173, 0.719);
+    border: 5px solid #beb0d1;
+    border-radius: 40px;
+    margin: 28px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-family: 'VelaSans Light';
+}
+.login, .senha{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 12px 0;
+    width: 260px;
+}
+.login input, .senha input{
+    font-size: 13px;
+    color: #747474;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    margin-right: 0;
+    border: 1px solid #d2d2d2;
+    margin: 12px 0 12px 0;
+    border-radius: 16px;
+}
+.login input:focus, .senha input:focus{
+    outline-color: #644978;
+}
+.entrar button{
+    background: #644978;
+    border-radius: 50px;
+    padding: 15px 32px;
+    font-size: 1.3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.entrar button:hover{
+    opacity: 0.8;
+    transition: opacity 130ms;
+    transform: scale(1.09);
+    transition: transform 130ms;
+}
+.entrar{
+    display: flex;
+    justify-content: center;
+}

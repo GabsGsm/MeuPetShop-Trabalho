@@ -1,0 +1,15 @@
+.banner{
+    background: #e5d5dc url(../imagem/50c51e02a205b44c3449fc128400ff20.jpg) no-repeat top center;
+    height: 378px;
+}
+main p{
+    text-align: justify;
+    line-height: 1.8em;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7e7e7e;
+    text-indent: 3.3em;
+    padding: 0 50px;
+    margin: 25px auto;
+}

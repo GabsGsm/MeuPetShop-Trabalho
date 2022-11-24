@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'VelaSans Light';
+    src: url(../fonte/VelaSans-Light.woff);
+}
+.box-contato{
+    width: 600px;
+    margin: 30px auto;
+    padding: 12px 30px;
+}
+.mensagem, .nome, .email{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 12px 0;
+}
+.nome, .email{
+    width: 260px;
+}
+.mensagem textarea{
+    width: 100%; 
+    height: 150px;
+}
+.mensagem textarea, .nome input, .email input{
+    font-size: 13px;
+    color: #747474;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    margin-right: 0;
+    border: 1px solid #d2d2d2;
+    margin: 12px 0 12px 0;
+    border-radius: 16px;
+}
+.mensagem textarea:focus, .nome input:focus, .email input:focus{
+    outline-color: #644978;
+}
+.enviar input{
+    background: #644978;
+    border-radius: 50px;
+    padding: 15px 32px;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: 'VelaSans Light';
+    border: none;
+    cursor: pointer;
+}
+.enviar input:hover{
+    opacity: 0.8;
+    transition: opacity 130ms;
+    transform: scale(1.09);
+    transition: transform 130ms;
+}
